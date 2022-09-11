@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account</title>
+    <script>document.addEventListener("DOMContentLoaded",function(){let e=document.getElementsByTagName("include");for(var t=0;t<e.length;t++){let a=e[t];n(e[t].attributes.src.value,function(e){a.insertAdjacentHTML("afterend",e),a.remove()})}function n(e,t){fetch(e).then(e=>e.text()).then(e=>t(e))}});</script>
+    <link rel="icon" type="image/x-icon" href="jb.png">
+    <link rel="stylesheet" href="myaccount.css">
+
+
+</head>
+<body>
+    <include src="./header.html"></include>
+    
+<div class="accounttitile">
+    
+        <h1>ACCOUNT</h1>
+</div>
+
+<div class="account">
+    
+    <div class = "signin">
+        <h2>SIGN IN</h2>
+        <p>Sign in to your account to add or edit your addresses and email preferences, save your Pro Filt'r # to your profile and more.
+        </p>
+        <div class="signinbuttons">
+            <div class="emailbutton"> Email</div>
+            <div class="emailbutton"> Password </div>
+            <div class="singinbutton">Sign In</div>
+
+        </div>
+    </div>
+
+    <div class = "createaccount">
+        <h2>CREATE ACCOUNT</h2>
+       <h3> GET YOUR FAVES FASTER</h3>
+       <p>Save your order information to make checkout a breeze.</p>    
+       <h3>EXCLUSIVE OFFERS + INFO</h3>
+       <p>Sign up to stay posted on hyper-limited offers, online-only product drops, in-store events, and—as true Jules Beauty family—personal beauty tips from Jules herself.</p>
+       <h3>ORDER DETAILS</h3>
+       <p>Receive important updates about your order, and track it every step of the way.</p>    
+       <div class="signupbutton"> Sign Up</div>
+
+    </div>
+</div>
+
+
+    <include src="./footer.html"></include>
+
+</body>
+</html>

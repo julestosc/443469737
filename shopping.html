@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP MAKEUP</title>
+    <script>document.addEventListener("DOMContentLoaded",function(){let e=document.getElementsByTagName("include");for(var t=0;t<e.length;t++){let a=e[t];n(e[t].attributes.src.value,function(e){a.insertAdjacentHTML("afterend",e),a.remove()})}function n(e,t){fetch(e).then(e=>e.text()).then(e=>t(e))}});</script>
+
+    <link rel="stylesheet" href="shopping.css">    
+
+</head>
+<body>
+    <include src="./header.html"></include>
+
+    <h1 class="shopmakeup"> SHOP MAKEUP:</h1>
+    
+    <div class="products">
+        <div class="card">
+            <img src="shopping-foundation2.jpg" alt="Foundation" style="width:100">
+            <h1>Foundation</h1>
+            <p class="price">$19.99</p>
+            <p class="description">A sheer liquid foundation that delivers light to medium coverage with a dewy radiant finish.
+            </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+    
+          <div class="card">
+            <img src="shopping-concealer.webp" alt="Concealer" style="width:100">
+            <h1>Concealer</h1>
+            <p class="price">$12.99</p>
+            <p class="description"> A creamy, longwear, creaseproof liquid concealer that delivers light-as-air, medium to full coverage. </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+    
+          <div class="card">
+            <img src="shopping-mascara.jpg" alt="Mascara" style="width:100">
+            <h1>Mascara</h1>
+            <p class="price">$14.99</p>
+            <p class="description"> The ultimate mascara designed for a fully exposed lash look; instantly volumizes, lifts, lengthens, and curls. </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+    
+          <div class="card">
+            <img src="shopping-contour.jpg" alt="Contour" style="width:100">
+            <h1>Contour</h1>
+            <p class="price">$24.99</p>
+            <p class="description"> A contour stick in a longwear, light-as-air matte formula in a range of shades for all skin tones. </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+
+    </div>   
+    
+    <include src="./footer.html"></include>
+
+
+
+
+      
+</body>
+</html>

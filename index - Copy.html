@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JULES BEAUTY</title>
+    <script>document.addEventListener("DOMContentLoaded",function(){let e=document.getElementsByTagName("include");for(var t=0;t<e.length;t++){let a=e[t];n(e[t].attributes.src.value,function(e){a.insertAdjacentHTML("afterend",e),a.remove()})}function n(e,t){fetch(e).then(e=>e.text()).then(e=>t(e))}});</script>
+    <link rel="icon" type="image/x-icon" href="jb.png">
+    <link rel="stylesheet" href="index.css">    
+    <script src="carosel.js"></script>
+</head>
+
+<body onload="showSlides()">
+    <include src="./header.html"></include>
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="caroselimage1.png" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="caroselimage2.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext"></div>
+      <img src="caroselimage3.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+
+    <div class = "shopnew"><h1>SHOP NEW: </h1></div>
+
+    <div class="account">
+    
+      <div class = "signin">
+          <h2>SKIN</h2>
+          <p> Browse our extensive catalogue of skincare products.
+          </p>
+          <a href="/shopskin.html"> 
+            <div class="shopskinbutton">Shop Now</div>   
+          </a> 
+        
+      </div>
+  
+      <div class = "createaccount">
+          <h2>MAKEUP</h2>
+         <p>Sign up to stay posted on hyper-limited offers, online-only product drops, in-store events, and—as true Jules Beauty family—personal beauty tips from Jules herself.</p>
+         <a href="/shopping.html"> 
+          <div class="shopmakeupbutton">
+            Shop Now
+           </div>      
+        </a> 
+         
+      </div>
+
+    
+
+      </div>
+
+   
+ 
+ 
+      </div>   
+        
+  
+    <include src="./footer.html"></include>
+</body>
+</html>

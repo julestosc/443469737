@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shoppingcart.css">
+    <script src="carosel.js"></script>
+
+    <script>document.addEventListener("DOMContentLoaded",function(){let e=document.getElementsByTagName("include");for(var t=0;t<e.length;t++){let a=e[t];n(e[t].attributes.src.value,function(e){a.insertAdjacentHTML("afterend",e),a.remove()})}function n(e,t){fetch(e).then(e=>e.text()).then(e=>t(e))}});</script>
+
+</head>
+<body>
+
+    <include src="./header.html"></include>
+
+    <div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+          CART:
+        </div>
+       
+        <!-- Product #1 -->
+        <div class="item">
+          <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+          </div>
+       
+          <div class="image">
+            <img src="item-1.png" alt="" />
+          </div>
+       
+          <div class="description">
+            <span>Concealer</span>
+            <span>2022 Kiss</span>
+            <span>S1</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">$13.99</div>
+        </div>
+       
+        <!-- Product #2 -->
+        <div class="item">
+          <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+          </div>
+       
+          <div class="image">
+            <img src="item-2.png" alt=""/>
+          </div>
+       
+          <div class="description">
+            <span>Contour</span>
+            <span>2021 Paradise</span>
+            <span>S4</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">$19.99</div>
+        </div>
+       
+        <!-- Product #3 -->
+        <div class="item">
+          <div class="buttons">
+            <span class="delete-btn"></span>
+            <span class="like-btn"></span>
+          </div>
+       
+          <div class="image">
+            <img src="item-3.png" alt="" />
+          </div>
+       
+          <div class="description">
+            <span>Sheet Masks</span>
+            <span>2022 Kiss</span>
+            <span>Collagen</span>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">$9.99</div>
+        </div>
+      </div>
+
+
+      <include src="./footer.html"></include>
+
+</body>
+</html>

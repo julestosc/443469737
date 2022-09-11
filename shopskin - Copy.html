@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP SKIN</title>
+    <script>document.addEventListener("DOMContentLoaded",function(){let e=document.getElementsByTagName("include");for(var t=0;t<e.length;t++){let a=e[t];n(e[t].attributes.src.value,function(e){a.insertAdjacentHTML("afterend",e),a.remove()})}function n(e,t){fetch(e).then(e=>e.text()).then(e=>t(e))}});</script>
+
+    <link rel="stylesheet" href="shopskin.css">    
+
+</head>
+<body>
+    <include src="./header.html"></include>
+
+    <h1 class="shopmakeup"> SHOP SKIN:</h1>
+    
+    <div class="products">
+        <div class="card">
+            <img src="shopsheetmask.webp" alt="Sheet Masks" style="width:100">
+            <h1>Sheet Mask</h1>
+            <p class="price">$9.99</p>
+            <p class="description"> This collagen sheet mask helps minimise the appearance of fine lines. Skin appears smooth and more youthful.</p>
+            <p><button>Add to Cart</button></p>
+          </div>
+    
+          <div class="card">
+            <img src="shoppingretinol.avif" alt="Retinol" style="width:100">
+            <h1>Retinol Serum</h1>
+            <p class="price">$24.99</p>
+            <p class="description"> This lightweight serum gradual retinol release in combination with hydrating ingredients. </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+    
+          <div class="card">
+            <img src="shoppingundereye.avif" alt="Under Eye Cream" style="width:100">
+            <h1>Under Eye Cream</h1>
+            <p class="price">$29.99</p>
+            <p class="description"> Rejuvenate the total eye area, including the eyelids, in just four weeks; an advanced treatment for the eyes. </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+    
+          <div class="card">
+            <img src="shoppingmoisturiser.avif" alt="Moisturiser" style="width:100">
+            <h1>Moisturiser</h1>
+            <p class="price">$23.99</p>
+            <p class="description"> A contour stick in a longwear, light-as-air matte formula in a range of shades for all skin tones. </p>
+            <p><button>Add to Cart</button></p>
+          </div>
+
+    </div>   
+    
+    <include src="./footer.html"></include>
+
+
+
+
+      
+</body>
+</html>

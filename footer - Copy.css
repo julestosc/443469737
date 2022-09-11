@@ -1,0 +1,44 @@
+ body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+ 
+ .footerContainer{
+    background: fixed;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: center;
+}
+
+.socials{
+    align-items: center;
+    display: flex;
+    padding: 2%;
+    justify-content:center;
+}
+
+
+.bottominfo{
+    padding-inline-start: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.contact{
+    float:left;
+}
+
+
+.listContainer{
+    float: right;
+}
+
+.copyright{
+    align-items: center;
+    padding: 1%;
+}
